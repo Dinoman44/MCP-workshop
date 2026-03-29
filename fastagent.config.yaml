@@ -35,6 +35,6 @@ mcp:
         my_server:
             command: "uv"
             args: ["run", "server.py"]
-        filesystem:
+        playwright:
             command: "npx"
-            args: ["-y", "@modelcontextprotocol/server-filesystem", "."]
+            args: ["@playwright/mcp@latest"]
